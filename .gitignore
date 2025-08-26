@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+inventory-service/node_modules/
+#product-service/node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+
+# Docker volumes
+postgres_data/
+inventory_data/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# IDE files
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
